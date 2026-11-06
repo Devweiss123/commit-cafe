@@ -12,6 +12,8 @@ public class CommitCafe {
         System.out.println("Brewing a " + drink + "...");
         // STUDENT_TODO_2B: Add a second brew-related improvement
         System.out.println("Cup #" + cups + " is ready!");
+        System.out.println("CoffeeBot brewed " + drink + ". Keep calm and merge the mocha.");
+        System.out.println("[BOT CHECK] drink length = " + drink.length());
     }
 
     public static void printSummary() {
